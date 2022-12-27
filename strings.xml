@@ -1,0 +1,18 @@
+<strs serialization="custom">
+  <unserializable-parents/>
+  <list>
+    <default>
+      <size>4</size>
+    </default>
+    <int>4</int>
+    <str>one</str>
+    <str>two</str>
+    <str>one</str>
+    <str>one</str>
+  </list>
+  <strs>
+    <default>
+      <maxSize>5</maxSize>
+    </default>
+  </strs>
+</strs>
