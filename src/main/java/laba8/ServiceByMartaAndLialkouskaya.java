@@ -10,6 +10,7 @@ public class ServiceByMartaAndLialkouskaya {
     private final Reader reader = new Reader();
 
     public void reverseAll(MySuperArrayList list){
+        System.out.println("Count of strings to reverse: " + list.size());
         for (int i = 0; i < list.size(); i++) {
             list.set(i, new String((new StringBuilder(list.get(i)).reverse())));
         }
